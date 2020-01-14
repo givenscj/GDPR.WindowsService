@@ -1,0 +1,83 @@
+{
+  /*core system params*/
+  "CoreSystemUrl": "https://localhost:44340",
+  "CoreApplicationId": "c00e16e5-21f6-4b76-a387-27329fe9935d",
+  "TenantSystemUrl": "https://localhost:44340",
+  "SystemId": "D1801E72-8CEE-4198-AE29-D928CCA920E8",
+
+  "CertKeyDirectory": "C:\\temp",
+  "CertKeyPath": "\\PrivateKeys",
+
+  "tenantId": "e280491c-b27a-41bf-9623-21b60cf430b3",
+  "domain": "solliance.net",
+  "azureLoginUrl": "https://login.microsoftonline.com/",
+  "subscriptionId": "d433f371-e5e9-4238-abc2-7c38aa596a18",
+  "resourceGroup": "GDPR-",
+  "region": "uswest",
+  "resourcePrefix": "cjg",
+
+  "logLevel": "Verbose",
+
+  /*azure application id and secret - should have enough perms to create anything...*/
+  "AzureClientId": "CLIENTID",
+  "AzureClientSecret": "CLIENTSECRET",
+  
+  /*azure key vault strings*/
+  "KeyVaultName": "vault",
+  
+  "Applications": "DAD8F124-3B1B-4E9B-97DC-A99452957685_GDPR.Applications.SharePoint",
+  "applicationId": "DAD8F124-3B1B-4E9B-97DC-A99452957685",
+  "ApplicationPassword": "",
+
+  /*event hub processing*/
+  "eventHubNamespace": "gdprprivacy",
+  "eventHubName": "gdprmessagehub",
+  "eventDiscoveryHubName": "gdprdiscoverymessagehub",
+  "eventApprovalHubName": "gdprapprovalmessagehub",
+  "eventErrorHubName": "gdprerrormessagehub",
+  "eventNotificationHubName": "gdprnotificationmessagehub",
+  "mode": "queue",
+
+  /* blog storage account */
+  "storageAccountName": "gdprrefstorage",
+
+  /*storage settings*/
+  /*"StorageService": "GDPR.Common.Services.AzureStorageService",*/
+  "StorageService": "GDPR.Common.Services.AzureStorageService",
+  "StorageRegion": "us-east-1",
+
+  /*
+  "StorageAccountKey": "Key",
+  "StorageAccountSecret": "Secret",
+  */
+
+  "StorageAccountKey": "Key",
+
+  /* azure AI settings */
+  "VisionServiceName": "Vision",
+  "VisionApiUri": "https://eastus.api.cognitive.microsoft.com/",
+  "VisionApiKey": "key",
+
+  "SpeechServiceName": "Speech",
+  "SpeechApiUri": "https://eastus.api.cognitive.microsoft.com/",
+  "SpeechApiKey": "key",
+
+  "FaceServiceName": "Face",
+  "FaceApiUri": "https://eastus.api.cognitive.microsoft.com/face/v1.0",
+  "FaceApiKey": "key",
+
+  /* NGROK */
+  "PublicUrl": "http://e999c142.ngrok.io",
+
+  /* mail settings */
+  "MailServer": "smtp.office365.com",
+  "MailServerPort": "587",
+  "UseSecurity": "true",
+  "mailServerUserName": "youremail",
+  "mailServerPassword": "pwd",
+  "noReplyEmailAddress": "youremail",
+
+  /* maps apis */
+  "BingMapsApiKey": "YOURAPIKEY",
+  "GoogleMapsApiKey": "YOURAPIKEY"
+}

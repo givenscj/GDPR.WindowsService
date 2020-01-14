@@ -1,0 +1,1 @@
+﻿Place any valid GDPR Application stubs in this directory.
